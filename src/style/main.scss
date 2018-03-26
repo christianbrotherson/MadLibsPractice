@@ -1,0 +1,32 @@
+$bottegaGreen: #00CB79;
+$clearBlue: #45B0E5;
+$mainGray: #CFCFCF;
+$darkGray: #444444;
+$font-primary: 'Montserrat', sans-serif;
+
+.backgroundSkew {
+  background-color: $darkGray;
+  width: 100vw;
+  height: 700px;
+  transform: skewY(-10deg);
+  margin-top: -17rem;
+  padding-top: 17rem;
+  border-bottom: $bottegaGreen solid 1rem;
+}
+
+.backgroundSkew > * {
+  transform: skewY(10deg);
+}
+
+.madlib-heading {
+  color: white;
+  text-align: center;
+  margin: 20px;
+  padding-top: 46px;
+  font-family: $font-primary;
+}
+
+.madlib-subheading {
+  color: $mainGray;
+  font-size: 15px;
+}
